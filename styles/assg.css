@@ -1,7 +1,6 @@
-/* body {
-    margin: 0;
-    padding: 0;
-} */
+body {
+    font-family: Rel;
+}
 
 .header{
     background-image: url('../images/Hero-bg.png');
@@ -62,7 +61,7 @@ nav ul li a{
     font-style: oblique;
     font-weight: bold;
     font-size: 65px;
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
 }
 
 .action{
@@ -70,13 +69,12 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     gap: 200px;
+    margin-bottom: 40px;
 }
 
-/* .action-section{
-    
-} */
 .section-title{
     font-size: 35px;
+    margin-bottom: 40px;
     font-weight: bold;
     color: black;
 }
@@ -84,3 +82,44 @@ nav ul li a{
     font-size: 20px;
     color: #252432;
 }
+
+.productive-users {
+    background-color: # rgb(213, 239, 247);
+    text-align: center;
+    padding: 60px 20px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.user-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Stat boxes */
+.stat-box {
+    background-color: rgb(213, 239, 247);
+    padding: 30px;
+    border-radius: 8px;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 28px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.stat-box p {
+    font-size: 16px;
+    color: #555;
+}
+
