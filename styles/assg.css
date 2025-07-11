@@ -1,5 +1,10 @@
 body {
-    font-family: Rel;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    background-color: #ffffffea;
 }
 
 .header{
@@ -61,7 +66,7 @@ nav ul li a{
     font-style: oblique;
     font-weight: bold;
     font-size: 65px;
-    margin-bottom: 40px;
+    margin-bottom: 200px;
 }
 
 .action{
@@ -69,7 +74,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     gap: 200px;
-    margin-bottom: 40px;
+    margin-bottom: 200px;
 }
 
 .section-title{
@@ -123,3 +128,35 @@ nav ul li a{
     color: #555;
 }
 
+.touch-section-title{
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 400px;
+    /* text-align: center; */
+}
+
+.secondary-bg{
+    display: flex;
+    padding: 130px 230px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 1440;
+    height: 698px;
+    gap: 50px;
+
+}
+.touch-column{
+    width: 50%;
+}
+
+.secondary-bg input[type="text"], input[type="email"], textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: #555;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
