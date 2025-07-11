@@ -64,3 +64,23 @@ nav ul li a{
     font-size: 65px;
     /* margin-bottom: 40px; */
 }
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+/* .action-section{
+    
+} */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.sub-title{
+    font-size: 20px;
+    color: #252432;
+}
