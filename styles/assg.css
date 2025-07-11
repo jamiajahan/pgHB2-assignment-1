@@ -89,6 +89,7 @@ nav ul li a{
 }
 
 .productive-users {
+    justify-content: space-around;
     background-color: # rgb(213, 239, 247);
     text-align: center;
     padding: 60px 20px;
@@ -159,4 +160,61 @@ nav ul li a{
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 24px;
+    box-shadow: 0px 6px 50px 0px rgb (0, 0, 0, 0.66);
 }
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-links a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+}
+.r-section-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.reviews-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.review{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb (0, 0, 0, 0.66);
+}
+
